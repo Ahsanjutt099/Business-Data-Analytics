@@ -1,0 +1,33 @@
+
+### Google Colab Report Summary
+
+#### Task 1: Handling Missing Values 🧹
+- Filled numerical data with median for robustness.
+- Filled categorical data with mode (most frequent value).
+- Dropped columns with more than 20% missing values.
+
+#### Task 2: Advanced Filtering and Indexing 🔍
+- Filtered Richmond properties priced over $1M.
+- Extracted properties with land size greater than 500 sqm.
+- Retrieved the top 5 most expensive houses by sorting prices.
+
+#### Task 3: Data Transformation & Feature Engineering 🔧
+- Created a new column: "Price per Room".
+- Converted "Date" to datetime format.
+- Extracted "Year Sold" from the Date column.
+
+#### Task 4: Aggregation and Grouping 📊
+- Calculated average price per suburb.
+- Counted the total properties sold in each suburb.
+- Identified the most expensive suburb by average price.
+
+#### Task 5: Exporting & Visualizing Data 📈
+- Saved cleaned data into a new CSV file.
+- Visualized average house prices across suburbs using a bar chart.
+
+#### Bonus Challenge 🏅
+- Classified properties as "Expensive" or "Affordable" based on median price.
+- Explored the correlation between Price and Number of Rooms.
+
+### Conclusion
+This project enhanced my ability to handle missing values, perform advanced filtering, transform data, group and aggregate for analysis, and visualize insights. The bonus challenge gave me deeper insights into property classification and correlation analysis.
